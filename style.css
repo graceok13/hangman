@@ -1,0 +1,40 @@
+body{
+    background-color: lightblue;
+    font-family: "Comic Sans MS";
+    margin: 10%;
+}
+
+.labels{
+    font-size: large;
+    padding: 20px;
+}
+
+#title{
+    color: white;
+    text-align: center;
+}
+
+
+
+#wordSpace{
+    font-size: xx-large;
+    text-align: center;
+}
+
+#buttonDiv{
+    padding: 10px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
+#winOrLose{
+    text-align: center;
+    font-size: xx-large;
+    color: crimson;
+}
+
+#lives, #graveyard{
+    color: crimson;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body onload="makeButtons()">
+
+<h1 id="title">Hangman</h1>
+
+<div id="diff" class="labels">
+    Difficulty:
+    <select id="difficulty" class="btn btn-default">>
+        <option value="1">Easy</option>
+        <option value="2">Medium</option>
+        <option value="3">Hard</option>
+    </select>
+</div>
+
+<button id="playButton" class="btn btn-default btn-lg btn-block" onclick="startGame()">Play Game!</button>
+
+<div id="buttonDiv"></div>
+
+<div class="labels">Lives Remaining:
+<div id="lives"></div>
+</div>
+
+<div class="labels">Graveyard:
+    <div id="graveyard"></div>
+</div>
+
+<div id="wordSpace"></div>
+<div id="winOrLose"></div>
+<div id="img"><img id="imgSpace"></div>
+
+</body>
+</html>
